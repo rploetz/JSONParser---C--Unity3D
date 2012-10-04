@@ -22,21 +22,6 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class JSONObject
-{
-	public string key;
-	public string value;
-	public Dictionary<string, JSONObject> dict;
-	
-	public JSONObject() {}
-	
-	public JSONObject(string pKey, string mValue)
-	{
-		key = pKey;
-		value = mValue;
-	}
-}
-
 public class JSONParser 
 {
 	private string json;
